@@ -6,14 +6,14 @@ Leaf/Ini
 Leaf/ini is a document-based ini-file component for PHP that adopts all features from DOM, SplFileInfo and SplFileObject. The intention of Leaf/ini is to stop the lack of support of the available ini-parser ( including the php commands parse_ini_file and parse_ini_string ), all of them wasn't able to handle multiple entries of the same key inside of a ini-section. The major goal of this component was to build a solid component to access non-strict defined INI-Files like php.ini of the PHP-Package.
 
 ### Installation with **Composer**
-Leaf/ini is available from github and via composer. Just add `"leaf/ini": "~1.0"` to your `composer.json`:
+Leaf/ini is available from github and via composer. Just add `"leaf/ini": "1.0.*@dev"` to your `composer.json`:
 
     {
         "require": {
-            "leaf/ini": "~1.0"
+            "leaf/ini": "1.0.*@dev"
         }
     }
-or use the require-command of composer: `composer require leaf/ini:~1.0`
+or use the require-command of composer: `composer require leaf/ini:1.0.*@dev`
 
 > *Notice:* Composer installs the component into the vendor folder located in the same destination as your composer.json. The package-file of this library will force composer to install all files into `<vendor>/leaf/leaf/components/ini/`. This step is required for the autoloading mechanism of composer to resolve the `Leaf\Components\Ini`-namespace properly.
 
