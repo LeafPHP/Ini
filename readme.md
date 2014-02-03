@@ -15,7 +15,7 @@ Leaf/ini is available from github and via composer. Just add `"leaf/ini": "1.0.*
     }
 or use the require-command of composer: `composer require leaf/ini:1.0.*@dev`
 
-> *Notice:* Composer installs the component into the vendor folder located in the same destination as your composer.json. The package-file of this library will force composer to install all files into `<vendor>/leaf/leaf/components/ini/`. This step is required for the autoloading mechanism of composer to resolve the `Leaf\Components\Ini`-namespace properly.
+> *Notice:* Composer installs the component into the vendor folder located in the same destination as your composer.json. The package-file of this library will force composer to install all files into `<vendor>/leaf/ini/leaf/components/ini/`. This step is required for the autoloading mechanism of composer to resolve the `Leaf\Components\Ini`-namespace properly.
 
 ### Requirements and Dependencies
 Leaf/ini is compatible with **PHP 5.3** or higher and needs no external libraries or php modules. There is also no compability issue for future changes to `preg_*`-methods, this component is using string streams. The following PHP Classes are used by Leaf/ini and should not be disabled:
